@@ -24,9 +24,13 @@ class App extends React.Component {
   }
 
   // Adds track from Search Results to Playlist
+  //addTrack(track) {
+   // let tracks = this.state.playlistTracks;
+    //tracks.push(track);// adds
+    //this.setState({ playlistTracks: tracks });
+  
   addTrack(track) {
-    let tracks = this.state.playlistTracks;
-    tracks.push(track);// adds
+    const tracks = this.state.playlistTracks.concat(track);
     this.setState({ playlistTracks: tracks });
   }
 
