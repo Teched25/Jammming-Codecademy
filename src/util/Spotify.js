@@ -1,5 +1,5 @@
 const clientId = '';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'smelly-lift.surge.sh/';
 
 let accessToken;
 
